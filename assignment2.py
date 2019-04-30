@@ -46,8 +46,8 @@ class Assignment2:
         
     def get_number_of_indels(self):
         '''
-        Return the number of identified INDELs 
-        :return: 
+        Return the number of identified INDELs
+        :return:
         '''
         print("TODO")
         
@@ -70,7 +70,7 @@ class Assignment2:
     def merge_chrs_into_one_vcf(self):
         '''
         Creates one VCF containing all variants of chr21 and chr22
-        :return: 
+        :return:
         '''
         print("TODO")
         

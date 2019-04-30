@@ -16,6 +16,10 @@
 ## Tools
 * pyvcf (http://pyvcf.readthedocs.io/en/latest/)
 
+## Work
+* Perform the calculation using chr22
+* **Only** when implementing the method *merge_chrs_into_one_vcf* use **both** chromosomes (chr21 and chr22) 
+
 
 
 
