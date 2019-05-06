@@ -1,6 +1,7 @@
 # Medizinische Genomanalysen 2019 - Assignment 2
 
 ## News
+* Deadline: 20.05.2019
 * Use the chr21_**new**.vcf and chr22_**new**.vcf files
 * Use this information to get the variant callers
 ```callsetnames=,HiSeqPE300xfreebayes```
