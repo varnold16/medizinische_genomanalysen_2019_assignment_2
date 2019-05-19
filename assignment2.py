@@ -9,7 +9,7 @@ class Assignment2:
     
     def __init__(self, vcf_file, vcf_file_for_merge, merged_file_name):
         ## Check if pyvcf is installed
-        print("PyVCF version: %s" % vcf.VERSION)
+        print("PyVCF version: %s\n" % vcf.VERSION)
 
         self.vcf_file_chrA = vcf_file
 
@@ -32,6 +32,8 @@ class Assignment2:
         self.number_of_snvs = self.get_number_of_snvs()
 
         self.number_of_heterozygous_variants = self.get_number_of_heterozygous_variants()
+
+        print("")
 
         self.merge = self.merge_chrs_into_one_vcf()
 
@@ -218,7 +220,7 @@ class Assignment2:
         print("*"*80+"\n")
     
 def main():
-    print("Assignment 2")
+    print("Assignment 2\n")
     assignment2 = Assignment2("chr22_new.vcf", "chr21_new.vcf", "chr_22_merged_with_chr_21.vcf")
     assignment2.print_summary()
     print("Done with assignment 2")
